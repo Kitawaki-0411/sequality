@@ -47,19 +47,23 @@ public class Calculate {
     return (float) sum / y + 1 - x;
   }
 
-  public void sentens1(int x, int y) {
-    System.out.println("Sum of " + x + " and " + y + " is " + sum(x, y) + ". Average is " + average(x, y) + ".");
+  public String sentens1(int x, int y) {
+    String sentence;
+    sentence = "Sum of " + x + " and " + y + " is " + sum(x, y) + ". Average is " + average(x, y) + ".";
+    return sentence;
   }
 
-  public void sentens2(int x, int y) {
-    System.out
-        .println(
-            "Sum of " + x + " to " + y + " is " + sum_continue(x, y) + ". Average is " + average_continue(x, y) + ".");
+  public String sentens2(int x, int y) {
+    String sentence;
+    sentence = "Sum of " + x + " to " + y + " is " + sum_continue(x, y) + ". Average is " + average_continue(x, y)
+        + ".";
+    return sentence;
   }
 
-  public void sentens3(int x, int y) {
-    System.out
-        .println(
-            "Sum of odd of" + x + " to " + y + " is " + sum_odd(x, y) + ". Sum of even is " + sum_even(x, y) + ".");
+  public String sentens3(int x, int y) {
+    String sentence;
+    sentence = "Sum of odd of" + x + " to " + y + " is " + sum_odd(x, y) + ". Sum of even is " + sum_even(x, y) + ".";
+    return sentence;
+
   }
 }
