@@ -24,6 +24,6 @@ public class CalculateTest {
     assertEquals(expected_f, calculate.average_continue(1, 10), 0);
     assertEquals("Sum of 2 and 3 is 5. Average is 2.5.", calculate.sentens1(2, 3));
     assertEquals("Sum of 1 to 10 is 55. Average is 5.5.", calculate.sentens2(1, 10));
-    assertEquals("Sum of odd of1 to 10 is 25. Sum of even is 30.", calculate.sentens1(1, 10));
+    assertEquals("Sum of odd of1 to 10 is 25. Sum of even is 30.", calculate.sentens3(1, 10));
   }
 }
