@@ -13,6 +13,6 @@ public class App {
     Calculate calc = new Calculate();
     calc.sentens1(2, 3);
     calc.sentens2(1, 10);
-    calc.sentens2(1, 10);
+    calc.sentens3(1, 10);
   }
 }
