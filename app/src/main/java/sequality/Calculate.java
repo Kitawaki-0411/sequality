@@ -27,7 +27,7 @@ public class Calculate {
 
   public int sum_even(int x, int y) {
     int even = 0;
-    for (int i = x; i < y; i++) {
+    for (int i = x; i < y + 1; i++) {
       if (i % 2 == 0) {
         even += i;
       }
