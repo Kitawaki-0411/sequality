@@ -15,6 +15,26 @@ public class Calculate {
     return sum;
   }
 
+  public int sum_odd(int x, int y) {
+    int odd = 0;
+    for (int i = x; i < y; i++) {
+      if (i % 2 == 1) {
+        odd += i;
+      }
+    }
+    return odd;
+  }
+
+  public int sum_even(int x, int y) {
+    int even = 0;
+    for (int i = x; i < y; i++) {
+      if (i % 2 == 1) {
+        even += i;
+      }
+    }
+    return even;
+  }
+
   public float average(int x, int y) {
     return (float) sum(x, y) / 2;
   }
@@ -38,6 +58,8 @@ public class Calculate {
   }
 
   public void sentens3(int x, int y) {
-
+    System.out
+        .println(
+            "Sum of odd of" + x + " to " + y + " is " + sum_odd(x, y) + ". Sum of even is " + sum_even(x, y) + ".");
   }
 }
